@@ -1,8 +1,11 @@
 import React from 'react'
+import Main from './components/Main'
 
 const App: React.FC = () => {
   return (
-    <div>App</div>
+    <div>
+      <Main />
+    </div>
   )
 }
 
