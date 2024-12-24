@@ -10,23 +10,23 @@ const Header: React.FC = () => {
       <div className='flex gap-14 text-[#04003b]'>
         <div className='div-style1'>
           <FaMapMarkerAlt className='icon-style1' />
-          <h3 className='text-lg'>India</h3>
+          <h3 className=''>India</h3>
         </div>
         <div className='div-style1'>
           <FaMapMarkerAlt className='icon-style1' />
-          <h3 className='text-lg'>International</h3>
+          <h3 className=''>International</h3>
         </div>
         <div className='div-style1'>
           <FaPlane className='icon-style1' />
-          <h3 className='text-lg'>Flights</h3>
+          <h3 className=''>Flights</h3>
         </div>
         <div className='div-style1'>
           <FaHotel className='icon-style1' />
-          <h3 className='text-lg'>Hotels</h3>
+          <h3 className=''>Hotels</h3>
         </div>
         <div className='div-style1'>
           <BsLightningFill className='icon-style1' />
-          <h3 className='text-lg'>Activities</h3>
+          <h3 className=''>Activities</h3>
         </div>
       </div>
       <div className='flex gap-3 text-lg'>
