@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 
 const Activities: React.FC = () => {
   return (
-    <div>
+    <div className="mt-[70px]">
       <div>
         <h2 className="text-[#203f74] text-center text-4xl font-bold">
           Activities

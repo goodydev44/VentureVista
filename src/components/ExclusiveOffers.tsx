@@ -6,7 +6,7 @@ import { FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa'
 
 const ExclusiveOffers: React.FC = () => {
   return (
-    <div className="my-16">
+    <div className="mt-16">
       <div>
         <h2 className="text-[#203f74] text-center text-4xl font-bold">Exclusive Offers</h2>
         <div className="flex flex-col items-center gap-1 mt-2.5">
