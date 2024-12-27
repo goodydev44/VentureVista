@@ -6,7 +6,7 @@ import { FaHeart, FaEye, FaArrowRight } from 'react-icons/fa'
 import { IoArrowRedoSharp } from "react-icons/io5";
 const Blogs: React.FC = () => {
   return (
-    <div>
+    <div className="mt-16">
       <div>
         <h2 className="text-[#203f74] text-center text-4xl font-bold">
           Enjoy Fresh Travel Blogs

@@ -10,7 +10,7 @@ import { IoArrowForwardCircleOutline } from 'react-icons/io5'
 
 const TouristPlace: React.FC = () => {
   return (
-    <div className="grid grid-cols-3 gap-2">
+    <div className="grid grid-cols-3 gap-2 mt-28">
       <div className="flex flex-col justify-end h-[350px] pl-48 p-10 bg-gradient-to-r from-[#325282] to-[#456aa1] text-white">
         <FaMapMarkerAlt className="text-4xl text-[#d0931d] mb-3" />
         <h1 className="text-4xl font-bold">Famous Tourist Place</h1>

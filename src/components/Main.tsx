@@ -7,6 +7,7 @@ import Activities from './Activities'
 import BestHotels from './BestHotels'
 import Blogs from './Blogs'
 import BookWithUs from './BookWithUs'
+import Get from './Get'
 
 const Main: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Main: React.FC = () => {
       <BestHotels />
       <Blogs />
       <BookWithUs />
+      <Get />
     </div>
   )
 }

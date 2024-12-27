@@ -8,7 +8,7 @@ import { BsArrowRightCircle } from 'react-icons/bs'
 
 const BestHotels: React.FC = () => {
   return (
-    <div className="grid grid-cols-12 gap-2 justify-center">
+    <div className="grid grid-cols-12 gap-2 justify-center mt-10">
       <div className="col-span-3 row-span-2 bg-gradient-to-br from-[#2d4d7e] to-[#56739a] text-white
               flex flex-col justify-end p-5">
         <PiBuildingApartment className="text-7xl mb-14" />

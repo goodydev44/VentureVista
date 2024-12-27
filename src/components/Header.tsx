@@ -5,7 +5,7 @@ import { BsLightningFill } from 'react-icons/bs'
 
 const Header: React.FC = () => {
   return (
-    <div className='flex items-center justify-between font-medium'>
+    <div className='flex items-center justify-between font-medium my-3'>
       <img src={logo} />
       <div className='flex gap-14 text-[#04003b]'>
         <div className='div-style1'>
