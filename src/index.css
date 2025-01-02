@@ -4,10 +4,10 @@
 
 @layer base {
     .icon-style1{
-        @apply text-lg
+        @apply text-xl
     }
     .div-style1{
-        @apply flex gap-2 items-center cursor-pointer
+        @apply flex gap-2 items-center cursor-pointer hover:underline underline-offset-2
     }
     .btn-style1{
         @apply px-6 py-2 rounded-lg
@@ -20,5 +20,14 @@
     }
     .navStyle{
         @apply hover:bg-[#a8afba] transition rounded-full px-6 py-2 cursor-pointer
+    }
+    .contain{
+        @apply mobile:px-[3%] md:px-[5%] md2:px-[7%] lg:px-[7%] xl:px-[10%] 2xl:px-[12%];
+    }
+    .-contain{
+        @apply mobile:-mr-[3%] md:-mr-[5%] md2:-mr-[7%] lg:-mr-[7%] xl:-mr-[10%] 2xl:-mr-[12%];
+    }
+    .liStyle{
+        @apply text-[#3d434d] font-medium cursor-pointer hover:underline underline-offset-2
     }
 }

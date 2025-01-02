@@ -8,8 +8,8 @@ import { BsArrowRightCircle } from 'react-icons/bs'
 
 const BestHotels: React.FC = () => {
   return (
-    <div className="grid grid-cols-12 gap-2 justify-center mt-10">
-      <div className="col-span-3 row-span-2 bg-gradient-to-br from-[#2d4d7e] to-[#56739a] text-white
+    <div className="grid mobile:grid-cols-1 lg:grid-cols-12 gap-2 justify-center mt-10 contain">
+      <div className="lg:col-span-12 1xl:col-span-3 1xl:row-span-2 bg-gradient-to-br from-[#2d4d7e] to-[#56739a] text-white
               flex flex-col justify-end p-5">
         <PiBuildingApartment className="text-7xl mb-14" />
         <h2 className="text-5xl leading-[4.5rem] mb-4 font-bold">Discover our best hotels to stay</h2>
@@ -23,18 +23,18 @@ const BestHotels: React.FC = () => {
         </p>
       </div>
       <img src={img1}
-        className="col-span-3 h-full bg-blue-300 inline-block"
+        className="lg:col-span-4 1xl:col-span-3 h-full bg-blue-300 inline-block"
         alt="" />
       <img src={img2}
-        className="col-span-6 w-full"
+        className="lg:col-span-8 1xl:col-span-6 lg:w-full"
         alt="" />
       <img src={img3}
-        className="col-span-3 h-full bg-blue-300 inline-block"
+        className="lg:col-span-4 1xl:col-span-3 h-full bg-blue-300 inline-block"
         alt="" />
       <img src={img4}
-        className="col-span-6 w-full"
+        className="lg:col-span-8 1xl:col-span-6 lg:w-full"
         alt="" />
-      <div className="flex col-span-6 justify-between items-center py-10 px-7 text-white
+      <div className="flex lg:col-span-12 1xl:col-span-6 justify-between items-center py-10 px-7 text-white
             bg-gradient-to-tl from-[#e48423] to-[#edba2e]">
         <p className="text-lg mt-14">
           In our ofers, we have more <br /> hotels.

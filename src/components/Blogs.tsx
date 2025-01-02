@@ -4,9 +4,10 @@ import Img2 from '../assets/Images/Top Card - 2.png'
 import Img3 from '../assets/Images/Top Card - 3.png'
 import { FaHeart, FaEye, FaArrowRight } from 'react-icons/fa'
 import { IoArrowRedoSharp } from "react-icons/io5";
+
 const Blogs: React.FC = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-16 contain">
       <div>
         <h2 className="text-[#203f74] text-center text-4xl font-bold">
           Enjoy Fresh Travel Blogs
@@ -17,7 +18,7 @@ const Blogs: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-2.5 text-[#203f74]">
+      <div className="flex mobile:flex-col md3:flex-row justify-center gap-2.5 text-[#203f74]">
         <div className="flex flex-col items-center">
           <img src={Img1} alt="" />
           <div className="flex gap-6 justify-center my-6">
