@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
 
       <div className='space-y-3'>
         <h5 className='font-semibold text-[#234276] text-lg'>About</h5>
-        <ul className='space-y-2.5'>
+        <ul className='flex flex-col items-center gap-2.5'>
           <li className='liStyle'>about us</li>
           <li className='liStyle'>Destination</li>
           <li className='liStyle'>Testimonal</li>
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
 
       <div className='space-y-3'>
         <h5 className='font-semibold text-[#234276] text-lg'>Features</h5>
-        <ul className='space-y-2.5'>
+        <ul className='flex flex-col items-center gap-2.5'>
           <li className='liStyle'>payments</li>
           <li className='liStyle'>Contact us</li>
           <li className='liStyle'>accounts</li>
