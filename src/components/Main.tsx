@@ -8,6 +8,7 @@ import BestHotels from './BestHotels'
 import Blogs from './Blogs'
 import BookWithUs from './BookWithUs'
 import Get from './Get'
+import Footer from './Footer'
 
 const Main: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const Main: React.FC = () => {
       <Blogs />
       <BookWithUs />
       <Get />
+      <Footer />
     </div>
   )
 }

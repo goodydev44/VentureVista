@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 
 const Activities: React.FC = () => {
   return (
-    <div className="mt-[70px]">
+    <div className="mt-[70px] contain">
       <div>
         <h2 className="text-[#203f74] text-center text-4xl font-bold">
           Activities
@@ -16,9 +16,9 @@ const Activities: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2">
+      <div className="grid mobile:grid-cols-1 lg1:grid-cols-2 gap-2">
         <img src={img1} className="w-full" alt="" />
-        <img src={img2} className="row-span-2 w-[500pxx]" alt="" />
+        <img src={img2} className="lg1:row-span-2 w-fulll h-[500px]]" alt="" />
 
         <div className="p-5">
           <div className="flex flex-col items-start gap-1 mt-3 mb-7">
