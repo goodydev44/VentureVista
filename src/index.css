@@ -19,7 +19,7 @@
         @apply h-1 rounded-t-full
     }
     .navStyle{
-        @apply hover:bg-[#a8afba] transition rounded-full px-6 py-2 cursor-pointer
+        @apply hover:bg-[#e8991e] hover:text-white transition duration-200 rounded-full px-6 py-2 cursor-pointer
     }
     .contain{
         @apply mobile:px-[3%] md:px-[5%] md2:px-[7%] lg:px-[7%] xl:px-[10%] 2xl:px-[12%];
@@ -29,5 +29,11 @@
     }
     .liStyle{
         @apply text-[#3d434d] font-medium cursor-pointer hover:underline underline-offset-2
+    }
+    .animation1 {
+        @apply hover:scale-[1.05] transition ease-in-out delay-[50ms] duration-[400ms]
+    }
+    .animation2 {
+        @apply hover:scale-[1.02] transition ease-in-out delay-[50ms] duration-[400ms]
     }
 }

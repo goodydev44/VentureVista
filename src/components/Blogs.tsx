@@ -18,19 +18,19 @@ const Blogs: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex mobile:flex-col md3:flex-row justify-center gap-2.5 text-[#203f74]">
-        <div className="flex flex-col items-center">
-          <img src={Img1} alt="" />
-          <div className="flex gap-6 justify-center my-6">
-            <div className="flex flex-col text-lg font-medium items-center">
-              <FaHeart />
+      <div className="flex mobile:flex-col md3:flex-row justify-center gap-2.5 gap-y-8 text-[#203f74]">
+        <div className="flex flex-col items-center w-fitt">
+          <img src={Img1} className="animation1" alt="" />
+          <div className="flex gap-6 w-full mobile:justify-evenly md3:justify-between sm:px-9 md3:px-4 my-6">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
+              <FaHeart className="" />
               <p>244</p>
             </div>
-            <div className="flex flex-col text-lg font-medium items-center">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
               <FaEye />
               <p>244</p>
             </div>
-            <div className="flex flex-col text-lg font-medium items-center">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
               <IoArrowRedoSharp />
               <p>244</p>
             </div>
@@ -47,17 +47,17 @@ const Blogs: React.FC = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={Img2} alt="" />
-          <div className="flex gap-6 justify-center my-6">
-            <div className="flex flex-col text-lg font-medium items-center">
-              <FaHeart />
+          <img src={Img2} className="animation1" alt="" />
+          <div className="flex gap-6 w-full mobile:justify-evenly md3:justify-between sm:px-9 md3:px-4 my-6">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
+              <FaHeart className="" />
               <p>244</p>
             </div>
-            <div className="flex flex-col text-lg font-medium items-center">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
               <FaEye />
               <p>244</p>
             </div>
-            <div className="flex flex-col text-lg font-medium items-center">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
               <IoArrowRedoSharp />
               <p>244</p>
             </div>
@@ -73,17 +73,17 @@ const Blogs: React.FC = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={Img3} alt="" />
-          <div className="flex gap-6 justify-center my-6">
-            <div className="flex flex-col text-lg font-medium items-center">
-              <FaHeart />
+          <img src={Img3} className="animation1" alt="" />
+          <div className="flex gap-6 w-full mobile:justify-evenly md3:justify-between sm:px-9 md3:px-4 my-6">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
+              <FaHeart className="" />
               <p>244</p>
             </div>
-            <div className="flex flex-col text-lg font-medium items-center">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
               <FaEye />
               <p>244</p>
             </div>
-            <div className="flex flex-col text-lg font-medium items-center">
+            <div className=" cursor-pointer flex flex-col text-lg font-medium items-center">
               <IoArrowRedoSharp />
               <p>244</p>
             </div>

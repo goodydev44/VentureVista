@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
   return (
     <div className="relative py-20 bg-center bg-no-repeat bg-cover contain"
       style={{ backgroundImage: `url(${Img})` }}>
-      <div className="xs:w-[25rem] lg2:w-[30rem] bg-black/50 backdrop-blur-[3px] px-12 py-6">
+      <div className="xs:w-[25rem] sm:w-[27rem] lg2:w-[30rem] bg-black/50 backdrop-blur-[3px] px-12 py-6">
         <h4 className="text-white text-[27px] font-medium">Let's make a tour</h4>
         <h2 className="text-[#61adf4] text-[38px] font-bold">Discover the beauty</h2>
 
@@ -76,8 +76,8 @@ const Hero: React.FC = () => {
           <h3 className="text-xl font-medium">MOST POPULAR HOLIDAYS PLACE</h3>
           <IoArrowForwardCircleOutline className="text-4xl" />
         </div>
-        <div className="mobile:grid mobile:grid-cols-2 mobile:gap-3 xs:gap5 sm:flex sm:gap-8">
-          <div className="bg-white text-[#335180] rounded-xl px-2.5 pt-2.5 pb-6">
+        <div className="mobile:flex overflow-auto max-xs:w-full mobile:gap-3 xs:gap-5 sm:flex sm:gap-8">
+          <div className="bg-white min-w-[165px] min-h-[239px] text-[#335180] rounded-xl px-2.5 pt-2.5 pb-6">
             <img src={img1} className="h-[130px]" />
             <h3 className="text-lg font-bold mt-6">Trip To Scotland</h3>
             <div className="flex items-center gap-2 font-medium">
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
               <p>31 people going</p>
             </div>
           </div>
-          <div className="bg-white text-[#335180] rounded-xl px-2.5 pt-2.5 pb-6">
+          <div className="bg-white min-w-[165px] min-h-[239px] text-[#335180] rounded-xl px-2.5 pt-2.5 pb-6">
             <img src={img2} className="h-[130px]" />
             <h3 className="text-lg font-bold mt-6">Trip To Egypt</h3>
             <div className="flex items-center gap-2 font-medium">
@@ -93,7 +93,7 @@ const Hero: React.FC = () => {
               <p>27 people going</p>
             </div>
           </div>
-          <div className="bg-white text-[#335180] rounded-xl px-2.5 pt-2.5 pb-6">
+          <div className="bg-white min-w-[165px] min-h-[239px] text-[#335180] rounded-xl px-2.5 pt-2.5 pb-6">
             <img src={img3} className="h-[130px]" />
             <h3 className="text-lg font-bold mt-6">Trip To Greece</h3>
             <div className="flex items-center gap-2 font-medium">

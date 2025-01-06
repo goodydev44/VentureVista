@@ -17,7 +17,7 @@ const BookWithUs: React.FC = () => {
         </div>
       </div>
 
-      <div className="mobile:flex mobile:flex-col md:grid md:grid-cols-2 md:place-content-center lg1:flex lg1:flex-row justify-center items-center gap-5">
+      <div className="mobile:flex mobile:flex-col md:grid md:grid-cols-2 md:place-content-center lg1:flex lg1:flex-row justify-center items-center gap-10">
         <div className="flex flex-col items-center justify-center mobile:w-[320px] sm:w-[50%] md:w-full  lg1:w-[340px] bg-white py-10 px-8 text-center outline outline-[#adcdfa] outline-[2px] rounded-xl">
           <img src={Img1} className="h-[90px] w-[90px] mb-6" alt="" />
           <h4 className="text-[#224175] text-2xl font-bold">Easy Booking</h4>

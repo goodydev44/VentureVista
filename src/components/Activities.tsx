@@ -16,7 +16,7 @@ const Activities: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid mobile:grid-cols-1 lg1:grid-cols-2 gap-2">
+      <div className="grid mobile:grid-cols-1 lg1:grid-cols-2 gap-5">
         <img src={img1} className="w-full" alt="" />
         <img src={img2} className="lg1:row-span-2 w-fulll h-[500px]]" alt="" />
 
@@ -26,7 +26,7 @@ const Activities: React.FC = () => {
             <div className="line2 w-[4.5rem] bg-[#4d751a]"></div>
           </div>
 
-          <h4 className="text-[#3e454d] text-xl font-bold mb-4">Participate in activities like</h4>
+          <h4 className="text-[#3e454d] text-lg font-bold mb-1">Participate in activities like</h4>
           <h2 className="text-[#203f74] text-4xl font-bold mb-8">
             Bungee Jumping
           </h2>
@@ -36,7 +36,7 @@ const Activities: React.FC = () => {
             built on a high structure like a structure or a crane, a bridge across a steep ravine
           </p>
 
-          <button className="flex gap-3 w-full justify-end items-center text-[#e4802a] font-medium">
+          <button className="flex gap-3 w-full justify-end items-center text-[#e4802a] font-medium mt-10">
             <p className="text-lg text-right">Read more</p>
             <AiOutlineArrowRight className="inline-block text-3xl" />
           </button>

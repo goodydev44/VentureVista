@@ -11,7 +11,8 @@ import { FiMail } from 'react-icons/fi'
 const Footer: React.FC = () => {
   return (
     <div className='mobile:flex mobile:flex-col mobile:items-center 
-            mobile:text-center mobile:gap-y-5 md:grid md:grid-cols-2 md:gap-5 lg2:flex lg2:flex-row lg2:justify-between contain my-20'>
+            mobile:gap-y-5 md:grid md:grid-cols-2 md:gap-5
+            lg2:flex lg2:flex-row lg2:justify-between contain my-20'>
       <div>
         <img src={Img} className='-ml-7' alt="" />
         <p className='font-[450] text-[#292929] my-6'>
@@ -23,7 +24,7 @@ const Footer: React.FC = () => {
           and fulfills the wanderlust within you.
         </p>
         <h5 className='font-semibold text-[#14162e] mb-4 text-lg'>Follow Us</h5>
-        <div className='flex space-x-9 text-lg ml-5 mobile:justify-center'>
+        <div className='flex space-x-9 text-lg ml-5'>
           <FaFacebookF className='text-[#2533e1] cursor-pointer' />
           <FaYoutube className='text-[#FF0000] cursor-pointer' />
           <FaXTwitter className='text-[#14171A] cursor-pointer' />
@@ -32,23 +33,23 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className='space-y-3'>
+      <div className='space-y-3 md:place-self-center mobile:place-self-star'>
         <h5 className='font-semibold text-[#234276] text-lg'>About</h5>
-        <ul className='flex flex-col items-center gap-2.5'>
+        <ul className='flex flex-col items-start gap-2.5'>
           <li className='liStyle'>about us</li>
           <li className='liStyle'>Destination</li>
           <li className='liStyle'>Testimonal</li>
           <li className='liStyle'>news & article</li>
         </ul>
-        <div className='flex items-center space-x-3 w-full justify-center text-[#e89b21] cursor-pointer'>
+        <div className='flex items-center space-x-3 text-[#e89b21] cursor-pointer'>
           <p>View more</p>
           <RiArrowRightSLine />
         </div>
       </div>
 
-      <div className='space-y-3'>
+      <div className='space-y-3 md:place-self-center mobile:place-self-star'>
         <h5 className='font-semibold text-[#234276] text-lg'>Features</h5>
-        <ul className='flex flex-col items-center gap-2.5'>
+        <ul className='flex flex-col items-start gap-2.5'>
           <li className='liStyle'>payments</li>
           <li className='liStyle'>Contact us</li>
           <li className='liStyle'>accounts</li>
@@ -62,17 +63,17 @@ const Footer: React.FC = () => {
         <h5 className='font-semibold text-[#234276] text-lg'>Our company</h5>
         <img src={Img2} alt="" />
         <div className='space-y-5'>
-          <div className='flex space-x-3 items-center justify-center'>
+          <div className='flex space-x-3 items-center'>
             <img src={ISVG} className='h-[35px] -ml-2 -mr-1.5' alt="" />
             <p className='text-[#3d434d] font-medium'>
               Address Line 1, Address Line 2, <br /> Karolbhag Delhi, India-226028
             </p>
           </div>
-          <div className='flex space-x-3 items-center mobile:justify-center'>
+          <div className='flex space-x-3 items-center mobile'>
             <BsTelephone className='text-[#3b5786] text-lg' />
             <p className='text-[#3d434d] font-medium'>+91 5224527336</p>
           </div>
-          <div className='flex space-x-3 items-center mobile:justify-center'>
+          <div className='flex space-x-3 items-center mobile'>
             <FiMail className='text-[#3b5786] text-lg' />
             <p className='text-[#3d434d] font-medium'>travel@gmail.com</p>
           </div>

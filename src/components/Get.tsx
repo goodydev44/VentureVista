@@ -20,8 +20,8 @@ const Get: React.FC = () => {
             Available for Android and iPhone.
           </p>
           <div className="flex mobile:flex-col sm:flex-row gap-3">
-            <img src={Img3} className="cursor-pointer h-[64px] max-w-[220px]" alt="" />
-            <img src={Img4} className="cursor-pointer h-[64px] max-w-[220px]" alt="" />
+            <img src={Img3} className="animation1 cursor-pointer h-[64px] max-w-[220px]" alt="" />
+            <img src={Img4} className="animation1 cursor-pointer h-[64px] max-w-[220px]" alt="" />
           </div>
         </div>
 

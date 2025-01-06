@@ -8,7 +8,7 @@ import { BsArrowRightCircle } from 'react-icons/bs'
 
 const BestHotels: React.FC = () => {
   return (
-    <div className="grid mobile:grid-cols-1 lg:grid-cols-12 gap-2 justify-center mt-10 contain">
+    <div className="grid mobile:grid-cols-1 lg:grid-cols-12 gap-5 justify-center mt-10 contain">
       <div className="lg:col-span-12 1xl:col-span-3 1xl:row-span-2 bg-gradient-to-br from-[#2d4d7e] to-[#56739a] text-white
               flex flex-col justify-end p-5">
         <PiBuildingApartment className="text-7xl mb-14" />
@@ -23,16 +23,16 @@ const BestHotels: React.FC = () => {
         </p>
       </div>
       <img src={img1}
-        className="lg:col-span-4 1xl:col-span-3 h-full bg-blue-300 inline-block"
+        className="animation2 lg:col-span-4 1xl:col-span-3 h-full bg-blue-300 inline-block"
         alt="" />
       <img src={img2}
-        className="lg:col-span-8 1xl:col-span-6 lg:w-full"
+        className="animation2 lg:col-span-8 1xl:col-span-6 lg:w-full"
         alt="" />
       <img src={img3}
-        className="lg:col-span-4 1xl:col-span-3 h-full bg-blue-300 inline-block"
+        className="animation2 lg:col-span-4 1xl:col-span-3 h-full bg-blue-300 inline-block"
         alt="" />
       <img src={img4}
-        className="lg:col-span-8 1xl:col-span-6 lg:w-full"
+        className="animation2 lg:col-span-8 1xl:col-span-6 lg:w-full"
         alt="" />
       <div className="flex lg:col-span-12 1xl:col-span-6 justify-between items-center py-10 px-7 text-white
             bg-gradient-to-tl from-[#e48423] to-[#edba2e]">
