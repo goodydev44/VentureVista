@@ -49,14 +49,6 @@ const ExclusiveOffers: React.FC = () => {
         </div>
       </div>
 
-      {/* <nav className="mobile:grid mobile:grid-cols-2 mobile:place-content-center sm:flex text-[#203f74] gap-x-6 gap-y-2 text-center font-bold items-center justify-center mt-14">
-        <div className="navStyle bg-[#e8991e] text-white">Best Offers</div>
-        <div className="navStyle">Flight</div>
-        <div className="navStyle">Car</div>
-        <div className="navStyle">Bus</div>
-        <div className="navStyle">Hotel</div>
-      </nav> */}
-
       <nav className="mobile:grid mobile:grid-cols-2 mobile:place-content-center sm:flex text-[#203f74] gap-x-6 gap-y-2 text-center font-bold items-center justify-center mt-14">
         {offerEle}
       </nav>
